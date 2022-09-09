@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Karla:wght@300&display=swap');
+.main{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 100px;
+  background-color: #F5F7FB;
+
+}
+.heading{
+  letter-spacing: 1rem;
+}
+.btnstart{
+  margin:5px;
+  height:50px;
+  width:  150px;
+  background-color: #4D5B9E;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size:1.2rem;
+  margin:70px
+}
+.cards{
+  background-color: #F5F7FB;
+  margin: 40px;
+}
+
+.card-title{
+  font-family: Karla;
+  font-weight:700;
+  font-size: 20px;
+  line-height: 18.7px;
+  color: #293264;
+}
+.card-text{
+  font-size: Inter;
+  border: 2px solid #4D5B9E;
+  border-radius: 20px;
+  font-weight: 500;
+  line-height: 12.39px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.options{
+  display: flex;
+}
+.submit{
+  width:200px;
+  height: 45px;
+  background-color: #4D5B9E;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Inter;
+  margin-left:70px
+}
+.bottom{
+  display: flex;
+}
+.bottomtxt{
+  font-family: 'Inter';
+  color:#293264;
+  font-size: 20px;
+  font-weight: 800;
+}
+.question-text {
+	margin-bottom: 12px;
+  font-family: Karla;
+  font-size: 20px;
+}
+.correct-answers-text {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+.question-btn {
+	min-width: 65px;
+	min-height: 25px;
+	border: 0.8px solid #4D5B9E;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	background-color: #F5F7FB;
+	color: #000001;
+	margin: 0 12px 12px 0;
+}
+
+.question-btn-selected {
+	min-width: 65px;
+	height: 25px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	color: #000001;
+	margin: 0 12px 12px 0;
+	background-color: #D6DBF5;
+}
